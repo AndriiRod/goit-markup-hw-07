@@ -1,11 +1,13 @@
 .contact {
   display: flex;
+  column-gap: 30px;
   margin-left: auto;
   @extend %list;
   &__link {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -18,12 +20,7 @@
     transition: color $animation-speed-hover $animation-cubic-bezier;
     @extend %link;
   }
-  &__item:not(:last-child) {
-    margin-right: 30px;
-  }
   &__icon {
-    margin-right: 10px;
-
     fill: currentColor;
   }
   &__link:hover,

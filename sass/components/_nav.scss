@@ -5,11 +5,9 @@
 
   &__list {
     display: flex;
+    column-gap: 50px;
     padding: 0;
     @extend %list;
-  }
-  &__item:not(:last-child) {
-    margin-right: 50px;
   }
   &__link {
     display: flex;

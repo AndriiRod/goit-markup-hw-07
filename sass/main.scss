@@ -1,13 +1,20 @@
+@import './utils/variables';
+
 @import './base/basic';
 @import './base/visual_hidden';
 
-@import './utils/variables';
 @import './utils/container';
 @import './utils/section';
 @import './utils/mixin';
 @import './utils/templates';
 
+@import './components/button';
+
 @import './components/header';
 @import './components/logo';
 @import './components/nav';
 @import './components/contact';
+
+@import './components/hero';
+
+@import './components/particular';

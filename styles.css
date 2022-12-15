@@ -1,39 +1,5 @@
 /* ?###############--Clients--###############*/
-.clients-title {
-  margin-bottom: 50px;
-}
-.clients-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--gap-card);
-}
-.clients-list > .item {
-  width: 170px;
-  height: 92px;
-}
-.clients-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
 
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
-  color: var(--icon-color);
-
-  transition: border-color var(--animation-speed-hover) var(--animation-cubic-bezier),
-    color var(--animation-speed-hover) var(--animation-cubic-bezier);
-}
-.clients-list-link > .icon {
-  fill: currentColor;
-}
-.clients-list-link:hover,
-.clients-list-link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
 /* !###############--Footer--###############*/
 
 .footer {

@@ -25,6 +25,7 @@
     color: $third-text-color;
   }
   &__btn {
+    @extend %btn;
     min-width: 216px;
     padding: 10px 32px;
   }

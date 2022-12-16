@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: $gap-card;
+    column-gap: $gap-card;
     @extend %list;
   }
   &__item {

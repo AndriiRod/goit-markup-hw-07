@@ -6,7 +6,7 @@
   }
   &__list {
     display: flex;
-    gap: $gap-card;
+    column-gap: $gap-card;
     @extend %list;
   }
   &__item {
@@ -39,6 +39,17 @@
     color: $secondary-text-color;
   }
 }
-.social-list {
-  @include icons_soc-net($icon-color, $hover-icon-color, $accent-color);
+.team__social-list__link {
+  color: $icon-color;
+
+  transition: background-color $animation-speed-hover $animation-cubic-bezier,
+    color $animation-speed-hover $animation-cubic-bezier;
+  &:hover,
+  &:focus {
+    color: $hover-icon-color;
+    background-color: $accent-color;
+  }
+}
+.team__social-list__icon {
+  fill: currentColor;
 }

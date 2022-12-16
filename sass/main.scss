@@ -1,27 +1,5 @@
-@import './utils/variables';
+@import './utils/utils';
 
-@import './base/basic';
-@import './base/visual_hidden';
-@import './base/container';
-@import './base/section';
+@import './base/base.scss';
 
-@import './utils/mixin';
-@import './utils/templates';
-
-@import './components/button';
-@import './components/logo';
-
-@import './components/header';
-@import './components/nav';
-@import './components/contact';
-
-@import './components/hero';
-
-@import './components/particular';
-
-@import './components/work';
-
-@import './components/icons_soc_net';
-@import './components/team';
-
-@import './components/clients-list';
+@import './components/components';

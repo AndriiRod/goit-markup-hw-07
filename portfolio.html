@@ -60,74 +60,114 @@
     <main>
       <section class="project section">
         <div class="container">
-          <h2 class="project-title visually-hidden">project</h2>
-          <ul class="project-filter list">
-            <li class="item"><button class="project-btn btn" type="button">Усі</button></li>
-            <li class="item"><button class="project-btn btn" type="button">Веб-сайти</button></li>
-            <li class="item"><button class="project-btn btn" type="button">Додатки</button></li>
-            <li class="item"><button class="project-btn btn" type="button">Дизайн</button></li>
-            <li class="item"><button class="project-btn btn" type="button">Маркетинг</button></li>
+          <!-- <h2 class="project__title">Проєкти</h2> -->
+          <ul class="filter">
+            <li class="filter__item">
+              <label class="filter__label">
+                <input class="filter__input" type="radio" name="filter" value="filter1" checked />
+                <span class="filter__custom-input">Усі</span>
+              </label>
+            </li>
+            <li class="filter__item">
+              <label class="filter__label">
+                <input class="filter__input" type="radio" name="filter" value="filter2" />
+                <span class="filter__custom-input">Веб-сайти</span>
+              </label>
+            </li>
+            <li class="filter__item">
+              <label class="filter__label">
+                <input class="filter__input" type="radio" name="filter" value="filter3" />
+                <span class="filter__custom-input">Додатки</span>
+              </label>
+            </li>
+            <li class="filter__item">
+              <label class="filter__label">
+                <input class="filter__input" type="radio" name="filter" value="filter4" />
+                <span class="filter__custom-input">Дизайн</span>
+              </label>
+            </li>
+            <li class="filter__item">
+              <label class="filter__label">
+                <input class="filter__input" type="radio" name="filter" value="filter5" />
+                <span class="filter__custom-input">Маркетинг</span>
+              </label>
+            </li>
           </ul>
-          <ul class="project-list list">
-            <li class="item">
-              <a class="project-list-link link" href="">
-                <div class="project-thumb">
+          <!-- <ul class="filter">
+            <li class="filter__item"><button class="project-btn btn" type="button">Усі</button></li>
+            <li class="filter__item">
+              <button class="project-btn btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="filter__item">
+              <button class="project-btn btn" type="button">Додатки</button>
+            </li>
+            <li class="filter__item">
+              <button class="project-btn btn" type="button">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button class="project-btn btn" type="button">Маркетинг</button>
+            </li>
+          </ul> -->
+          <ul class="project__list">
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__thumb">
                   <img src="./images/proj/work1.jpg" width="370" height="294" alt="Ноутбук" />
-                  <p class="project-overlay">
+                  <p class="project__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="project-card-content">
-                  <h3 class="project-subtitle">Технокряк</h3>
-                  <p class="project-text">Веб-сайт</p>
+                <div class="project__content">
+                  <h3 class="project__subtitle">Технокряк</h3>
+                  <p class="project__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a class="project-list-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__thumb">
                   <img
                     src="./images/proj/work2.jpg"
                     width="370"
                     height="294"
                     alt="Гравці у баскетбол"
                   />
-                  <p class="project-overlay">
+                  <p class="project__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="project-card-content">
-                  <h3 class="project-subtitle">Постер New Orlean vs Golden Star</h3>
-                  <p class="project-text">Дизайн</p>
+                <div class="project__content">
+                  <h3 class="project__subtitle">Постер New Orlean vs Golden Star</h3>
+                  <p class="project__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a class="project-list-link link" href="">
-                <div class="project-thumb">
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__thumb">
                   <img
                     src="./images/proj/work3.jpg"
                     width="370"
                     height="294"
                     alt="Логотип ресторану"
                   />
-                  <p class="project-overlay">
+                  <p class="project__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="project-card-content">
-                  <h3 class="project-subtitle">Ресторан Seafood</h3>
-                  <p class="project-text">Додаток</p>
+                <div class="project__content">
+                  <h3 class="project__subtitle">Ресторан Seafood</h3>
+                  <p class="project__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="project__item">
               <a class="project-list-link link" href="">
                 <div class="project-thumb">
                   <img src="./images/proj/work4.jpg" width="370" height="294" alt="Навушники" />
@@ -143,7 +183,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="project__item">
               <a class="project-list-link link" href="">
                 <div class="project-thumb">
                   <img src="./images/proj/work5.jpg" width="370" height="294" alt="Коробки" />
@@ -159,7 +199,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="project__item">
               <a class="project-list-link link" href="">
                 <div class="project-thumb">
                   <img src="./images/proj/work6.jpg" width="370" height="294" alt="Монітор" />
@@ -175,7 +215,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="project__item">
               <a class="project-list-link link" href="">
                 <div class="project-thumb">
                   <img src="./images/proj/work7.jpg" width="370" height="294" alt="Журнал" />
@@ -191,7 +231,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="project__item">
               <a class="project-list-link link" href="">
                 <div class="project-thumb">
                   <img
@@ -212,7 +252,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="project__item">
               <a class="project-list-link link" href="">
                 <div class="project-thumb">
                   <img

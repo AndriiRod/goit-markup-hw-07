@@ -6,6 +6,9 @@
   column-gap: 8px;
   margin-bottom: 50px;
   @extend %list;
+  &__label {
+    cursor: pointer;
+  }
   &__input {
     appearance: none;
   }

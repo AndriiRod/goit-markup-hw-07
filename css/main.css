@@ -751,6 +751,9 @@ img {
        column-gap: 8px;
   margin-bottom: 50px;
 }
+.filter__label {
+  cursor: pointer;
+}
 .filter__input {
   -webkit-appearance: none;
      -moz-appearance: none;
